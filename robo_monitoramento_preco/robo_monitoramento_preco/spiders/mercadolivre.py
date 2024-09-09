@@ -19,3 +19,12 @@ class MercadolivreSpider(scrapy.Spider):
                 'Preço': elemento.xpath(".//div[@class='ui-search-price ui-search-price--size-medium']/div/span/span[2]/text()").get(),
                 'Link': elemento.xpath(".//a[@class='ui-search-item__group__element ui-search-link__title-card ui-search-link']/@href").get()
             }
+
+        try:
+            botao_seguinte_link = response.xpath(
+                "//a[@title='Seguinte']/@href").get()
+            if botao_seguinte_link is not None:
+                yield scrapy.Request(url=botao_seguinte_link, callback=self.parse)
+        except Exception as error:
+            print(error)
+            print('Chegamos na última página')
