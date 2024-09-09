@@ -1,0 +1,179 @@
+2024-09-09 18:42:29 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: robo_monitoramento_preco)
+2024-09-09 18:42:29 [scrapy.utils.log] INFO: Versions: lxml 5.2.2.0, libxml2 2.11.7, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.7.0, Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)], pyOpenSSL 24.2.1 (OpenSSL 3.3.1 4 Jun 2024), cryptography 43.0.0, Platform Windows-11-10.0.22631-SP0
+2024-09-09 18:42:29 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-09-09 18:42:29 [asyncio] DEBUG: Using selector: SelectSelector
+2024-09-09 18:42:29 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-09-09 18:42:29 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-09-09 18:42:29 [scrapy.extensions.telnet] INFO: Telnet Password: ec4b66509999ef9c
+2024-09-09 18:42:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-09 18:42:29 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'robo_monitoramento_preco',
+ 'DOWNLOAD_DELAY': 3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'robo_monitoramento_preco.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['robo_monitoramento_preco.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 '
+               'OPR/112.0.0.0'}
+2024-09-09 18:42:30 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-09 18:42:30 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-09 18:42:30 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-09-09 18:42:30 [scrapy.core.engine] INFO: Spider opened
+2024-09-09 18:42:30 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-09 18:42:30 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-09-09 18:42:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True> (referer: None)
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 GB) - Titânio Branco - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.576', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-256-gb-titnio-branco-distribuidor-autorizado/p/MLB1027172715#wid%3DMLB4208674638%26sid%3Dsearch%26searchVariation%3DMLB1027172715%26position%3D4%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 GB) - Titânio Preto - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.487', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-256-gb-titnio-preto-distribuidor-autorizado/p/MLB1027172724#wid%3DMLB4376702816%26sid%3Dsearch%26searchVariation%3DMLB1027172724%26position%3D5%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 GB) - Titânio Azul - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.576', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-256-gb-titnio-azul-distribuidor-autorizado/p/MLB1027172717#wid%3DMLB3512271627%26sid%3Dsearch%26searchVariation%3DMLB1027172717%26position%3D6%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 GB) - Titânio Natural - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.487', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-256-gb-titnio-natural-distribuidor-autorizado/p/MLB1027172726#wid%3DMLB3570897553%26sid%3Dsearch%26searchVariation%3DMLB1027172726%26position%3D7%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (512 GB) - Titânio Preto - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '9.630', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-512-gb-titnio-preto-distribuidor-autorizado/p/MLB1027172725#wid%3DMLB3461275499%26sid%3Dsearch%26searchVariation%3DMLB1027172725%26position%3D8%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (1 TB) - Titânio Preto - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '10.858', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-1-tb-titnio-preto-distribuidor-autorizado/p/MLB1027172719#wid%3DMLB3570844411%26sid%3Dsearch%26searchVariation%3DMLB1027172719%26position%3D9%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': ' iPhone 15 Pro Max Dual SIM 512 GB titânio branco - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '9.899', 'Link': 'https://www.mercadolivre.com.br/iphone-15-pro-max-dual-sim-512-gb-titnio-branco-distribuidor-autorizado/p/MLB1027172723#wid%3DMLB4376791704%26sid%3Dsearch%26searchVariation%3DMLB1027172723%26position%3D10%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (512 GB) - Titânio Natural - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '9.746', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-512-gb-titnio-natural-distribuidor-autorizado/p/MLB1027172722#wid%3DMLB4376709268%26sid%3Dsearch%26searchVariation%3DMLB1027172722%26position%3D11%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (512 GB) - Titânio Azul - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '9.746', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-512-gb-titnio-azul-distribuidor-autorizado/p/MLB1027172716#wid%3DMLB3512326781%26sid%3Dsearch%26searchVariation%3DMLB1027172716%26position%3D12%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (1 TB) - Titânio Azul - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '10.915', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-1-tb-titnio-azul-distribuidor-autorizado/p/MLB1027172721#wid%3DMLB3512345349%26sid%3Dsearch%26searchVariation%3DMLB1027172721%26position%3D13%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 GB) - Titânio Preto', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.504', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-256-gb-titnio-preto/p/MLB27172724#wid%3DMLB5012368930%26sid%3Dsearch%26searchVariation%3DMLB27172724%26position%3D14%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (1 TB) - Titânio Natural - Distribuidor Autorizado', 'Data Atual': '09/09/2024 18:42', 'Preço': '10.915', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-1-tb-titnio-natural-distribuidor-autorizado/p/MLB1027172720#wid%3DMLB4593268538%26sid%3Dsearch%26searchVariation%3DMLB1027172720%26position%3D15%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (512 GB) - Titânio Azul', 'Data Atual': '09/09/2024 18:42', 'Preço': '9.199', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-512-gb-titnio-azul/p/MLB27172716#wid%3DMLB5019323046%26sid%3Dsearch%26searchVariation%3DMLB27172716%26position%3D16%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (1 TB) - Titânio Preto', 'Data Atual': '09/09/2024 18:42', 'Preço': '10.718', 'Link': 'https://www.mercadolivre.com.br/apple-iphone-15-pro-max-1-tb-titnio-preto/p/MLB27172719#wid%3DMLB3831713661%26sid%3Dsearch%26searchVariation%3DMLB27172719%26position%3D3%26search_layout%3Dstack%26type%3Dproduct%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 1tb - Titânio Preto', 'Data Atual': '09/09/2024 18:42', 'Preço': '12.199', 'Link': 'https://produto.mercadolivre.com.br/MLB-4879893944-iphone-15-pro-max-1tb-titnio-preto-_JM?searchVariation=183598613803#searchVariation%3D183598613803%26position%3D17%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) -  Azul C/ Nota Fiscal', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.700', 'Link': 'https://produto.mercadolivre.com.br/MLB-4439171734-apple-iphone-15-pro-max-256-gb-azul-c-nota-fiscal-_JM?searchVariation=181698575965#searchVariation%3D181698575965%26position%3D18%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256gb Lacrado Original', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.699', 'Link': 'https://produto.mercadolivre.com.br/MLB-4716801134-iphone-15-pro-max-256gb-lacrado-original-_JM?searchVariation=182906456637#searchVariation%3D182906456637%26position%3D19%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) -preto Com Nota Fiscal', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.700', 'Link': 'https://produto.mercadolivre.com.br/MLB-3589863241-apple-iphone-15-pro-max-256-gb-preto-com-nota-fiscal-_JM?searchVariation=181671363009#searchVariation%3D181671363009%26position%3D20%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256gb Preto + Capinha + Carregador', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.200', 'Link': 'https://produto.mercadolivre.com.br/MLB-3679005865-iphone-15-pro-max-256gb-preto-capinha-carregador-_JM?searchVariation=182651490621#searchVariation%3D182651490621%26position%3D21%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256gb Lacrado Original', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.199', 'Link': 'https://produto.mercadolivre.com.br/MLB-4716788124-iphone-15-pro-max-256gb-lacrado-original-_JM?searchVariation=180571415596#searchVariation%3D180571415596%26position%3D22%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max 256gb Preto + Capa +carregador', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.200', 'Link': 'https://produto.mercadolivre.com.br/MLB-3520315641-apple-iphone-15-pro-max-256gb-preto-capa-carregador-_JM#position%3D23%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256gb Natural + Capinha + Carregador', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.100', 'Link': 'https://produto.mercadolivre.com.br/MLB-5044630080-iphone-15-pro-max-256gb-natural-capinha-carregador-_JM?searchVariation=181563494830#searchVariation%3D181563494830%26position%3D24%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - E Sim', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.499', 'Link': 'https://produto.mercadolivre.com.br/MLB-3672666769-apple-iphone-15-pro-max-256-gb-e-sim-_JM?searchVariation=182601676385#searchVariation%3D182601676385%26position%3D25%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio Azul - Anatel', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.199', 'Link': 'https://produto.mercadolivre.com.br/MLB-4363785458-apple-iphone-15-pro-max-256-gb-titnio-azul-anatel-_JM?searchVariation=181423777117#searchVariation%3D181423777117%26position%3D26%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Smartphone iPhone 15 Pro Max 256gb Natural +capa +carregador', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.200', 'Link': 'https://produto.mercadolivre.com.br/MLB-4659978606-smartphone-iphone-15-pro-max-256gb-natural-capa-carregador-_JM?searchVariation=180426984466#searchVariation%3D180426984466%26position%3D27%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max 256gb Preto +carregador+capa', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.800', 'Link': 'https://produto.mercadolivre.com.br/MLB-4651593504-apple-iphone-15-pro-max-256gb-preto-carregadorcapa-_JM?searchVariation=180405793770#searchVariation%3D180405793770%26position%3D28%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max 256gb Natural +capa+ Carregador', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.200', 'Link': 'https://produto.mercadolivre.com.br/MLB-3683332575-apple-iphone-15-pro-max-256gb-natural-capa-carregador-_JM?searchVariation=182700850823#searchVariation%3D182700850823%26position%3D29%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max 256gb Azul + Capa +carregador', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.200', 'Link': 'https://produto.mercadolivre.com.br/MLB-4244184022-apple-iphone-15-pro-max-256gb-azul-capa-carregador-_JM#position%3D30%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 1tb - Titânio Azul', 'Data Atual': '09/09/2024 18:42', 'Preço': '12.199', 'Link': 'https://produto.mercadolivre.com.br/MLB-4879854214-iphone-15-pro-max-1tb-titnio-azul-_JM?searchVariation=183598637815#searchVariation%3D183598637815%26position%3D31%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256gb  Preto + Capinha + Carregador', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.100', 'Link': 'https://produto.mercadolivre.com.br/MLB-3840402455-iphone-15-pro-max-256gb-preto-capinha-carregador-_JM?searchVariation=181563434056#searchVariation%3D181563434056%26position%3D32%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256gb Azul + Capinha + Carregador', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.100', 'Link': 'https://produto.mercadolivre.com.br/MLB-3840401649-iphone-15-pro-max-256gb-azul-capinha-carregador-_JM?searchVariation=181563433462#searchVariation%3D181563433462%26position%3D33%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Natural Com Nota Fiscal', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.700', 'Link': 'https://produto.mercadolivre.com.br/MLB-3589894103-apple-iphone-15-pro-max-256-gb-natural-com-nota-fiscal-_JM?searchVariation=181671431537#searchVariation%3D181671431537%26position%3D34%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio Azul - Anatel', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.799', 'Link': 'https://produto.mercadolivre.com.br/MLB-4363746978-apple-iphone-15-pro-max-256-gb-titnio-azul-anatel-_JM?searchVariation=179670566662#searchVariation%3D179670566662%26position%3D35%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256gb Com Película + Capinha Brinde', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.359', 'Link': 'https://produto.mercadolivre.com.br/MLB-3648000527-iphone-15-pro-max-256gb-com-pelicula-capinha-brinde-_JM?searchVariation=180241656850#searchVariation%3D180241656850%26position%3D36%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max 256gb Preto + Capa +carregador', 'Data Atual': '09/09/2024 18:42', 'Preço': '8.200', 'Link': 'https://produto.mercadolivre.com.br/MLB-3524657857-apple-iphone-15-pro-max-256gb-preto-capa-carregador-_JM#position%3D37%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256gb Com Película + Capinha Brinde', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.939', 'Link': 'https://produto.mercadolivre.com.br/MLB-4588035850-iphone-15-pro-max-256gb-com-pelicula-capinha-brinde-_JM?searchVariation=182397705069#searchVariation%3D182397705069%26position%3D38%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256 Gb Azul - Bom - Usado', 'Data Atual': '09/09/2024 18:42', 'Preço': '6.814', 'Link': 'https://produto.mercadolivre.com.br/MLB-5035627244-iphone-15-pro-max-256-gb-azul-bom-usado-_JM#position%3D39%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max 256 Gb Titânio Preto 1 Ano Garantia', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.899', 'Link': 'https://produto.mercadolivre.com.br/MLB-3844155603-apple-iphone-15-pro-max-256-gb-titnio-preto-1-ano-garantia-_JM?searchVariation=184754487327#searchVariation%3D184754487327%26position%3D40%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio Branco Zerado!!', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.290', 'Link': 'https://produto.mercadolivre.com.br/MLB-3544910329-apple-iphone-15-pro-max-256-gb-titnio-branco-zerado-_JM?searchVariation=181115071031#searchVariation%3D181115071031%26position%3D41%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) Dual Sim - Branco, 8gb Ram', 'Data Atual': '09/09/2024 18:42', 'Preço': '6.999', 'Link': 'https://produto.mercadolivre.com.br/MLB-5047101516-apple-iphone-15-pro-max-256-gb-dual-sim-branco-8gb-ram-_JM?searchVariation=184711204759#searchVariation%3D184711204759%26position%3D42%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max 256 Gb Preto - Excelente - Usado', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.544', 'Link': 'https://produto.mercadolivre.com.br/MLB-5046694572-iphone-15-pro-max-256-gb-preto-excelente-usado-_JM#position%3D43%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio Preto Sem Detalhe', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.799', 'Link': 'https://produto.mercadolivre.com.br/MLB-5024176264-apple-iphone-15-pro-max-256-gb-titnio-preto-sem-detalhe-_JM?searchVariation=184516716681#searchVariation%3D184516716681%26position%3D44%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio Azul - Novíssimo', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.000', 'Link': 'https://produto.mercadolivre.com.br/MLB-3833285211-apple-iphone-15-pro-max-256-gb-titnio-azul-novissimo-_JM?searchVariation=184576412237#searchVariation%3D184576412237%26position%3D45%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio + Nfe Garantia', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.990', 'Link': 'https://produto.mercadolivre.com.br/MLB-4842638574-apple-iphone-15-pro-max-256-gb-titnio-nfe-garantia-_JM?searchVariation=183419986049#searchVariation%3D183419986049%26position%3D46%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio Preto Sem Detalhe', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.299', 'Link': 'https://produto.mercadolivre.com.br/MLB-5024214716-apple-iphone-15-pro-max-256-gb-titnio-preto-sem-detalhe-_JM?searchVariation=181486588846#searchVariation%3D181486588846%26position%3D47%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio + Nfe + Garantia', 'Data Atual': '09/09/2024 18:42', 'Preço': '7.989', 'Link': 'https://produto.mercadolivre.com.br/MLB-4970693512-apple-iphone-15-pro-max-256-gb-titnio-nfe-garantia-_JM?searchVariation=181269415118#searchVariation%3D181269415118%26position%3D48%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio Azul', 'Data Atual': '09/09/2024 18:42', 'Preço': '6.999', 'Link': 'https://produto.mercadolivre.com.br/MLB-4977530102-apple-iphone-15-pro-max-256-gb-titnio-azul-_JM?searchVariation=181291843828#searchVariation%3D181291843828%26position%3D49%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D982563ce-300e-4483-9ef8-777fadfd2de1'}
+2024-09-09 18:42:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_Desde_51_MODEL_25767840_NoIndex_True> (referer: https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True)
+2024-09-09 18:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_Desde_51_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) - Titânio Branco Zerado!!', 'Data Atual': '09/09/2024 18:42', 'Preço': '6.190', 'Link': 'https://produto.mercadolivre.com.br/MLB-3844933917-apple-iphone-15-pro-max-256-gb-titnio-branco-zerado-_JM?searchVariation=184771762893#searchVariation%3D184771762893%26position%3D1%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D0a592f3f-9252-4b83-93da-99c34fc8ddc8'}
+2024-09-09 18:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_Desde_51_MODEL_25767840_NoIndex_True>
+{'Nome': 'iPhone 15 Pro Max', 'Data Atual': '09/09/2024 18:42', 'Preço': '6.999', 'Link': 'https://produto.mercadolivre.com.br/MLB-3815813441-iphone-15-pro-max-_JM?searchVariation=184265384677#searchVariation%3D184265384677%26position%3D2%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D0a592f3f-9252-4b83-93da-99c34fc8ddc8'}
+2024-09-09 18:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_Desde_51_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (1 Tb) - Titânio Azul', 'Data Atual': '09/09/2024 18:42', 'Preço': '11.990', 'Link': 'https://produto.mercadolivre.com.br/MLB-4282178622-apple-iphone-15-pro-max-1-tb-titnio-azul-_JM?searchVariation=179409173756#searchVariation%3D179409173756%26position%3D3%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D0a592f3f-9252-4b83-93da-99c34fc8ddc8'}
+2024-09-09 18:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_Desde_51_MODEL_25767840_NoIndex_True>
+{'Nome': 'Apple iPhone 15 Pro Max (256 Gb) Impecável Garantia C/ Nota', 'Data Atual': '09/09/2024 18:42', 'Preço': '6.997', 'Link': 'https://produto.mercadolivre.com.br/MLB-5034481358-apple-iphone-15-pro-max-256-gb-impecavel-garantia-c-nota-_JM?searchVariation=181521419176#searchVariation%3D181521419176%26position%3D4%26search_layout%3Dstack%26type%3Ditem%26tracking_id%3D0a592f3f-9252-4b83-93da-99c34fc8ddc8'}
+2024-09-09 18:42:33 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-09-09 18:42:33 [scrapy.extensions.feedexport] INFO: Stored csv feed (51 items) in: output.csv
+2024-09-09 18:42:33 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1209,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 286320,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 2.55781,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 9, 9, 21, 42, 33, 100207, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 1579339,
+ 'httpcompression/response_count': 2,
+ 'item_scraped_count': 51,
+ 'log_count/DEBUG': 56,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2024, 9, 9, 21, 42, 30, 542397, tzinfo=datetime.timezone.utc)}
+2024-09-09 18:42:33 [scrapy.core.engine] INFO: Spider closed (finished)
+Missing scheme in request url: 
+Chegamos na última página

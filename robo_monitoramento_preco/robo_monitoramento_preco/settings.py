@@ -92,3 +92,9 @@ DOWNLOAD_DELAY = 3
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+FEEDS = {
+    'output.csv': {
+        'format': 'csv',
+        'overwrite': True,  # Para sobrescrever o arquivo CSV a cada execução
+    },
+}
