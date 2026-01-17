@@ -1,0 +1,30 @@
+from typing import Iterable
+import scrapy
+from datetime import datetime
+
+
+class MercadolivreSpider(scrapy.Spider):
+    name = "mercadolivre"
+
+    def start_requests(self):
+        urls = ["https://lista.mercadolivre.com.br/celulares-telefones/celulares-smartphones/iphone/iphone-15-pro-max_MODEL_25767840_NoIndex_True"]
+        for url in urls:
+            yield scrapy.Request(url=url, callback=self.parse)
+
+    def parse(self, response):
+        for elemento in response.xpath("//div[@class='ui-search-result__wrapper']"):
+            yield {
+                'Nome': elemento.xpath(".//h3[@class='poly-component__title-wrapper']/a/text()").get(),
+                'Data Atual': datetime.now().strftime('%d/%m/%Y %H:%M'),
+                'Preço': elemento.xpath(".//div[@class='poly-price__current']//span[@class='andes-money-amount__fraction']/text()").get()
+                
+            }
+
+        try:
+            botao_seguinte_link = response.xpath(
+                "//a[@title='Seguinte']/@href").get()
+            if botao_seguinte_link is not None:
+                yield scrapy.Request(url=botao_seguinte_link, callback=self.parse)
+        except Exception as error:
+            print(error)
+            print('Chegamos na última página')
